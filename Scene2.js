@@ -1,6 +1,6 @@
 class Scene2 extends Phaser.Scene {
-    constructor() {
-      super('nivel1');
-    }
+  constructor() {
+    super('nivel1');
+  }
 
 }

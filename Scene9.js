@@ -13,7 +13,7 @@ class Scene9 extends Phaser.Scene {
 
       this.add.image(400, 300, 'creds')
 
-      var backtomain = this.add.image(765, 570, 'volver')
+      var backtomain = this.add.image(765, 550, 'volver')
       backtomain.setInteractive()
       backtomain.on('pointerdown', () => this.scene.start('inicio') );
   

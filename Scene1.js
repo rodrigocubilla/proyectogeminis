@@ -5,13 +5,15 @@ class Scene1 extends Phaser.Scene {
 
     preload ()
     {
-      this.load.spritesheet('Left', 'assets/Left.png', { frameWidth: 68, frameHeight: 96 });    
-      this.load.spritesheet('Right', 'assets/Right.png', { frameWidth: 68, frameHeight: 96 }); 
+      this.load.spritesheet('Left', 'assets/Left.png', { frameWidth: 57, frameHeight: 85 });    
+      this.load.spritesheet('Right', 'assets/Right.png', { frameWidth: 57, frameHeight: 85 }); 
       this.load.image('still', 'assets/tipardo.png'); 
       this.load.image('menuone', 'assets/menu principal.png');
       this.load.image('jugar', 'assets/jugar.png');
       this.load.image('creditos', 'assets/creditos.png');
       this.load.image('ayuda', 'assets/ayuda.png')
+      this.load.image('ground', 'assets/groundlvl2.png')
+      this.load.image('sky', 'assets/lvl2.png')
     }
 
     create() {
